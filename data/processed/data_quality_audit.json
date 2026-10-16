@@ -1,0 +1,62 @@
+{
+  "status_geral_seguranca_e_integridade": "APROVADO_COM_TRATAMENTO_DE_ATRIBUICAO",
+  "contagem_registros": {
+    "total_linhas_brutas": 704,
+    "linhas_entrega_paga_ativa": 19,
+    "linhas_conversao_tardia_janela_7d": 4,
+    "linhas_inativas_zeradas_removidas_da_analise_diaria": 681
+  },
+  "verificacao_seguranca_lgpd_e_csv_injection": {
+    "dados_pessoais_pii_detectados": false,
+    "celulas_com_risco_csv_formula_injection": 0
+  },
+  "testes_consistencia_matematica": {
+    "violacoes_alcance_maior_que_impressoes": 0,
+    "violacoes_hierarquia_cliques": 0,
+    "violacoes_monotonicidade_curva_video": 0,
+    "violacoes_valores_negativos": 0
+  },
+  "alertas_analiticos_tratados": {
+    "conversoes_tardias_sem_gasto_no_dia": [
+      {
+        "data": "2026-05-05",
+        "nome_anuncio": "Novo anúncio de Engajamento",
+        "resultados_atribuidos": 2,
+        "explicacao": "Conversao iniciada dentro da janela de atribuicao (7d clique / 1d view) apos pausa do anuncio."
+      },
+      {
+        "data": "2026-05-06",
+        "nome_anuncio": "Novo anúncio de Engajamento",
+        "resultados_atribuidos": 1,
+        "explicacao": "Conversao iniciada dentro da janela de atribuicao (7d clique / 1d view) apos pausa do anuncio."
+      },
+      {
+        "data": "2026-05-10",
+        "nome_anuncio": "anuncio porque",
+        "resultados_atribuidos": 1,
+        "explicacao": "Conversao iniciada dentro da janela de atribuicao (7d clique / 1d view) apos pausa do anuncio."
+      },
+      {
+        "data": "2026-05-12",
+        "nome_anuncio": "anuncio porque",
+        "resultados_atribuidos": 1,
+        "explicacao": "Conversao iniciada dentro da janela de atribuicao (7d clique / 1d view) apos pausa do anuncio."
+      }
+    ],
+    "dias_com_gasto_e_zero_conversoes": [
+      {
+        "data": "2026-05-13",
+        "nome_anuncio": "anuncio videos naturais 1",
+        "valor_gasto_brl": 56.69,
+        "impressoes": 3666,
+        "cliques_link": 25
+      }
+    ]
+  },
+  "reconciliacao_totais_campanha": {
+    "investimento_total_brl": 649.32,
+    "impressoes_totais": 76994,
+    "resultados_trafego_link_click": 1543,
+    "resultados_mensagens_iniciadas": 54
+  }
+}
